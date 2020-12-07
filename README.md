@@ -8,7 +8,7 @@ Wenn die SMS erfolgreich verschickt wurde, erstellt das Script automatisch einen
 # Anpassungen in gSales:
 
 Datei lib/tpl/subcustomer/subShowCustomer.tpl:
-
+```html
 Im ersten <ul> Block (Zeile 18) am Ende einen <li> Eintrag hinzufügen:
   
   <li><a href="#sms"><span>SMS</span></a></li>
@@ -24,6 +24,6 @@ Suchen nach <div id="docs"> und nach </div> folgenden <div> Container hinzufüge
      Keine Mobilfunknummer hinterlegt!
    {/if}
  </div>
-
+```
 Statt token bitte den selbst gewählten Token der config.inc.php einfügen.
 
